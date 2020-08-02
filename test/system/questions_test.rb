@@ -23,5 +23,6 @@ class QuestionsTest < ApplicationSystemTestCase
     click_on "Ask"
 
     assert_text "Great"
+    take_screenshot
   end
 end
